@@ -1,0 +1,32 @@
+/*heading bar clr and font*/
+.clr{
+    color: white;
+    background-color: #0000A0;
+    height: 60px;
+}
+
+.font{
+font-family: 'New Tegomin', serif;
+}
+
+/*Calculator*/
+.calculator{
+    margin: 60px 120px;  
+    border:2px solid blue;
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px cyan;
+}
+ #mystyle{
+            float: right;
+            margin-top: 100px;
+        }
+
+.keypad{
+    margin-top: 120px;
+}
+
+
+
+

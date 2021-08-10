@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="Calculator">
+    <link rel="stylesheet" href="Calc-style.css" type="text/css"> <!-- My CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <title>Basic Calculator </title>
+    <script src="calc-script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container-fluid clr">
+        <h1 class="ml-5 font">Calculator</h1>
+    </div>
+    
+    <div class="container">
+        <div class="calculator">
+            
+           
+            
+            
+                <input type="text" style="border:none;float: right; margin-top: 60px;" id="d">
+            <div class="keypad">
+                <hr>
+				<input class="btn m-3 rounded btn-primary font" type="button" value="1" onclick="dis('1')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="2" onclick="dis('2')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="3" onclick="dis('3')">
+                <input class="btn m-3 rounded btn-primary font" type="button" value="+" onclick="dis('+')"><br>
+				<input class="btn m-3 rounded btn-primary font" type="button" value="4" onclick="dis('4')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="5" onclick="dis('5')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="6" onclick="dis('6')">
+                <input class="btn m-3 rounded btn-primary font" type="button" value="-" onclick="dis('-')"><br>
+				<input class="btn m-3 rounded btn-primary font" type="button" value="7" onclick="dis('7')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="8" onclick="dis('8')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="9" onclick="dis('9')">
+                <input class="btn m-3 rounded btn-primary font" type="button" value="*" onclick="dis('*')"> <br>
+                <input class="btn m-3 rounded btn-primary font" type="button" value="C" onclick="clr()">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="0" onclick="dis('0')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="/" onclick="dis('/')">
+				<input class="btn m-3 rounded btn-primary font" type="button" value="=" onclick="res()">
+				
+            </div>
+				
+        </div>
+    </div>
+    
+    <!--JS part
+<script>
+ 
+</script> -->    
+</body>
+
+
+</html>
